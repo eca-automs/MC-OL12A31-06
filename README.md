@@ -1,9 +1,9 @@
-# MC-PFAL10AEMPRI
-![electric_panel_icon](el_icon_4.jpg)
+# MC-OL12A31-06
+![electric_panel_icon](res/el_icon_4.jpg)
 ## Schema per quadro elettrico per ascensore
 
 ### Scheda controllo
-MCPX2015-SMD - PER16B-SMD.
+MCPX2015-SMD - PER16B-SMD
 
 ### Tipo impianto
 Oleodinamico.
@@ -12,16 +12,28 @@ Oleodinamico.
 Universale.
 
 ### Operatore porte
-Automatico trifase, elettronico, manuale.
+Manule, automatico trifase, automatico elettronico.
 
-### Avviamento
-Diretto, soft-starter (SMS-Start), stella triangolo.
+### Avviamento / controllo motore
+Diretto, soft-starter (SMS-Start), stella-triangolo.
+
+### Potenza massima motore
+Avviamento|P max
+---|---
+diretto|14CV-230VAC/22CV-400VAC
+stella-triangolo|24CV-230VAC/43CV-400VAC
+soft-starter|17CV-230VAC/35CV-400VAC
+
+###### Teleruttore montati
+bom|sku
+---|---
+I01|CL04D310MWG
 
 ### Allarme
-12VDC, Legge 13.
+12VDC, Legge 13, allarme porte aperte fuori piano
 
 ### Emergenza
-Valvola 12VDC.
+Valvola 12VDC senza apertura porte
 
 ### Emendamento A3
-Doppia valoval discesa controllata da boxA3 SMS.
+Doppia valvola discesa controllata con box a3 (SMS)
